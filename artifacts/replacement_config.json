@@ -1,0 +1,95 @@
+{
+	"environments": [
+		{
+			"name": "DEV",
+			"projects": [
+				{
+					"name": "Dimensional MSSQL",
+					"variables": [
+						{
+							"name": "dimensionalmssql#cleanse#server_name",
+							"value": "",
+							"secretname": ""
+						},
+						{
+							"name": "dimensionalmssql#cleanse#database_name",
+							"value": "",
+							"secretname": ""
+						},
+						{
+							"name": "dimensionalmssql#cleanse#schema_name",
+							"value": "",
+							"secretname": ""
+						},
+						{
+							"name": "dimensionalmssql#core#server_name",
+							"value": "",
+							"secretname": ""
+						},
+						{
+							"name": "dimensionalmssql#core#database_name",
+							"value": "",
+							"secretname": ""
+						},
+						{
+							"name": "dimensionalmssql#core#schema_name",
+							"value": "",
+							"secretname": ""
+						},
+						{
+							"name": "dimensionalmssql#stage#server_name",
+							"value": "",
+							"secretname": ""
+						},
+						{
+							"name": "dimensionalmssql#stage#database_name",
+							"value": "",
+							"secretname": ""
+						},
+						{
+							"name": "dimensionalmssql#stage#schema_name",
+							"value": "",
+							"secretname": ""
+						},
+						{
+							"name": "dimensionalmssql#blackforestmarkets#server_name",
+							"value": "",
+							"secretname": ""
+						},
+						{
+							"name": "dimensionalmssql#blackforestmarkets#database_name",
+							"value": "",
+							"secretname": ""
+						},
+						{
+							"name": "dimensionalmssql#blackforestmarkets#schema_name",
+							"value": "",
+							"secretname": ""
+						}
+					]
+				},
+				{
+					"name": "loadcontrol",
+					"variables": [
+						{
+							"name": "loadcontrol#loadcontrol#server_name",
+							"value": "",
+							"secretname": ""
+						},
+						{
+							"name": "loadcontrol#loadcontrol#database_name",
+							"value": "",
+							"secretname": ""
+						},
+						{
+							"name": "loadcontrol#loadcontrol#schema_name",
+							"value": "LC",
+							"secretname": ""
+						}
+					]
+				}
+			]
+		}
+	],
+	"secretprovider": {}
+}

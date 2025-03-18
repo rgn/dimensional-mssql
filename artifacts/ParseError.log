@@ -1,0 +1,4 @@
+*************************************************************************************************
+VALIDATION WARNING ItemUnitOfMeasure (326560d9-00bd-42ce-885c-9942510783cc)
+Model object has a relationship to a historized model object, but the effective timestamp default term not mapped.
+
